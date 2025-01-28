@@ -1,0 +1,54 @@
+Lundi 25 mars (4h) :
+- Maquette du site web 
+- Connexion au compte administrateur 
+
+Mardi 26 mars (4h) :
+- Modification de la maquette
+- Header + Nav + Footer 
+
+Vendredi 29 mars (3h) :
+- Maquette définitive 
+- Passage du site web en sombre
+- Partie présentation (en cours)
+
+Mardi 2 avril (4h) :
+- Partie présentation du site web terminé
+- Graphique avec chart.js
+- Lien entre mes pages web (en cours)
+
+Mercredi 3 avril (3h)
+- Partie écran de contrôle du site web terminé (chart.js)
+- Amélioration de la barre de navigation 
+
+Vendredi 5 avril (2h)
+- Je me suis documenté d'avantage sur des modèles de boîtes pour la structure de la page
+- Prise de note sur les site web des autres groupes 
+- Modification des boutons de navigation
+
+Lundi 8 avril (4h)
+- Revue de projet n°1 
+- Refont totale du diaporama qui accompagnera la revue de projet du mardi 16/04
+- Modification de partie connexion user/admin
+
+Vendredi 12 avril (4h) 
+- Création de la partie connexion admin/user & connexion admin simple
+- Ajout d'un Historique de valeur
+
+Lundi 15 avril (4h) 
+- Gestion de comptes user/admin 
+- Mise à jour de la présentation orale du lendemain
+
+Mardi 16 avril (4h)
+- Indentation + Commentaire des scripts
+- Entraînement au passage à l'oral
+- Vérification de toutes les fonctionnalités su site web 
+
+
+VACANCES 
+
+
+Lundi 6 mai (4h)
+- Amélioration du style de la page de connexion admin
+
+
+en attente de la base de données pour rendre les liens de pages fonctionnels

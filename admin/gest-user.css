@@ -1,0 +1,71 @@
+/*Style de ma page de gestion des comptes*/
+
+.container {
+    max-width: 650px;
+    margin: 7vh auto;
+    padding: 5vh;
+    border-radius: 5px;
+    background-color: #171717;
+    box-shadow: 8px 8px 10px rgb(93, 91, 91);
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info-card {
+    padding: 1.5vh;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #292929;
+    color: #fff;
+    width: 60%;
+    display: none; /* Initialement caché */
+}
+
+.input-container {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
+#saveBtn {
+    background-color: #025dbe;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#saveBtn:hover {
+    background-color: #013e80;
+}
+
+#removeAccessBtn {
+    border: 1px solid #ca0606;
+    color: #fff;
+    background-color: #ca0606;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#removeAccessBtn:hover {
+    background-color: #aa0808;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}

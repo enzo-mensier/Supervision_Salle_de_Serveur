@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 13vh - 23vh);
+    padding: 2vh;
+}
+
+.card {
+    position: relative;
+    background-color: #4c4c4c;
+    border-radius: 2vw;
+    padding: 3vh;
+    margin: 2vw 4vw;
+    transition: transform 0.3s ease-in-out;
+    width: 30vw;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card .valeur {
+    margin-top: 1vh;
+}
+
+.card .valeur::after {
+    content: ":";
+    margin-left: 0.5vw;
+}
+
+.card .icon-valeur {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#temperatureCard {
+    background-color: #1d1c1c;
+}
+
+#humidityCard {
+    background-color: #141413;
+}
+
+#temperature,
+#humidity {
+    color: green;
+}

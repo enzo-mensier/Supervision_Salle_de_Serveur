@@ -1,0 +1,15 @@
+connexion user ou admin
+
+si connexion user =
+	interface web user :presentation
+		      	    valeur en temps réel 
+		      	    historique valeur
+		      	    connexion admin
+
+
+si connexion admin =
+	interface web admin :presentation
+		      	    valeur en temps réel
+		      	    historique valeur
+			    gestion utilisateurs
+		      	    deconnexion

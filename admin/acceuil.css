@@ -1,0 +1,45 @@
+/*Style de ma page d'acceuil*/
+
+#image-section {
+    width: 100%;
+    position: relative; /* Ajouter une position relative */
+}
+
+.text-container {
+    position: absolute; /* Position absolue pour les éléments de texte */
+    top: 40%; /* Centrer verticalement + Décalage */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Déplacer de moitié de la largeur et de la hauteur */
+    display: flex; /* Utiliser la disposition flexbox */
+    justify-content: space-around; /* Espacement équitable entre les éléments */
+    width: 100%; /* Ajuster la largeur */
+}
+
+.description-contexte,
+.besoin-client {
+    width: 45%; 
+    padding: 20px;
+    background-color: #232321;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.description-contexte p,
+.besoin-client p {
+    line-height: 1.6;
+    transform: scale(0.9);
+    color: white;
+    text-shadow: 4px 4px 5px rgb(77, 76, 76);
+}
+
+.description-contexte p:hover,
+.besoin-client p:hover {
+    transform: scale(1);
+}
+
+
+.image-description {
+    width: 100%; 
+    filter: blur(4px);
+}

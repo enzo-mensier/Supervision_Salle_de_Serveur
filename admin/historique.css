@@ -1,0 +1,17 @@
+/*Style de ma page historique de valeur*/
+
+#container {
+    width: 90%;
+    display: flex;
+}
+
+.chart-container {
+    width: 38%; 
+    float: left; 
+    box-sizing: border-box;
+    margin: 5vh;
+}
+canvas {
+    width: 90%; 
+    height: auto !important; 
+}

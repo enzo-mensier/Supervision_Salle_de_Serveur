@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Contenu de ma page de gestion des comptes-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecran de contrôle</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="gest-user.css">
+
+</head>
+<body>
+    <header class="header-slide-down">
+        <a href="../login.html"><img src="images/admin-green.png" alt="img-admin" id="img-admin"></a>
+        <h1 id="titre-header">SUPERVISION D’UNE SALLE DE SERVEURS IOT</h1>
+    </header>
+    
+    <nav>
+        <ul class="nav-menu">
+            <li class="active"><a href="acceuil.html" class="btn-nav">PRÉSENTATION</a></li>
+            <li><a href="ecran-controle.html" class="btn-nav">ÉCRAN DE CONTRÔLE</a></li>
+            <li><a href="historique.html" class="btn-nav">HISTORIQUE</a></li>
+            <li><a href="gest-user.html" class="btn-nav">GESTION DES COMPTES</a></li>
+            <li><a href="../user/acceuil.html" class="btn-nav">SE DECONNECTER</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="input-container">
+            <h2>Gestion des Comptes</h2>
+            <form id="signup-form">
+                <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+                <input type="password" id="password" placeholder="Mot de passe" required>
+                <input type="checkbox" id="adminCheckbox">
+                <label for="adminCheckbox">Admin</label>
+                <input type="email" id="adminEmail" placeholder="Email" style="display:none;">
+                <button id="saveBtn" type="submit">Enregistrer</button>
+            </form>
+            <button id="removeAccessBtn" style="display:none;">Supprimer le compte</button>
+        </div>
+    
+        <div id="user-info" class="user-info-card">
+            <h2>Données :</h2>
+            <p><strong>Username:</strong> <span id="displayUsername"></span></p>
+            <p><strong>Password:</strong> <span id="displayPassword"></span></p>
+            <p><strong>Admin:</strong> <span id="displayAdmin"></span></p>
+            <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+        </div>
+    </div>
+
+    
+    <footer>
+        <img src="images/our-logo.png" alt="logo-MAE">
+        <p>Chef de projet : Muhammed Benali</p>
+        <p>Technicien Réseau : Abdessamad Bouarfaoui </p>
+        <p>Développeur : Enzo Mensier</p>
+    </footer>
+
+    <script src="gest-user.js"></script>
+</body> 
+</html>
