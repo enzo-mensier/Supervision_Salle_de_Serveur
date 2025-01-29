@@ -6,6 +6,13 @@ Le projet "Supervision d'une salle de Serveur (IoT)" est un mini-projet de déve
 
 Les questions abordent des sujets fondamentaux du développement web tels que  **JavaScript**, **HTML** et **CSS**, et permettent de valider des connaissances de base et d'approfondir les pratiques de programmation.
 
+## Extrait du projet
+
+<div style="text-align: center;">
+  <img src="Projet-IoT.png" width="90%" />
+</div>
+
+
 ## Fonctionnalités
 
 - **Interface web** : L'interface est conçue pour être simple et compréhensible pour tous, permettant aux utilisateurs de comprendre d'un coup d'oeil les données relatifs aux éléments IoT.
@@ -27,4 +34,3 @@ Ce projet vise à renforcer mes compétences en développement web, en particuli
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
    git clone https://github.com/enzo-mensier/Supervision_Salle_de_Serveur.git
-
